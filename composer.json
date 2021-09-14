@@ -27,6 +27,6 @@
         "doctrine/orm": "^2.9",
         "symfony/security-bundle": "5.3.*"
     },
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "prefer-stable": true
 }
