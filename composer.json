@@ -1,0 +1,29 @@
+{
+    "name": "afteam/shop-bundle",
+    "description": "shop bundle",
+    "type": "symfony-bundle",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sofiane KHALFI",
+            "email": "contact@sofianekhalfi.com"
+        },
+        {
+            "name": "Adrien PIGNON",
+            "email": "pignon.adrien@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "ShopBundle\\": "src/"
+        }
+      },
+    "require": {
+        "php": ">=7.2",
+        "doctrine/annotations": "^1.0",
+        "doctrine/doctrine-bundle": "^2.4",
+        "doctrine/doctrine-migrations-bundle": "^3.1",
+        "doctrine/orm": "^2.9",
+        "symfony/security-bundle": "5.3.*"
+    }
+}
