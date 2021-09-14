@@ -1,8 +1,8 @@
 <?php
 
-namespace ShopBundle\Repository;
+namespace ShypBundle\Repository;
 
-use ShopBundle\Entity\Taxon;
+use ShypBundle\Entity\Taxon;
 use Doctrine\Bundle\DoctrineBundle\Repository\ServiceEntityRepository;
 use Doctrine\Persistence\ManagerRegistry;
 

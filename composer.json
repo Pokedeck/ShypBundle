@@ -1,6 +1,6 @@
 {
-    "name": "afteam/shop-bundle",
-    "description": "shop bundle",
+    "name": "shyp/shyp-bundle",
+    "description": "shyp bundle is a e-shop bundle",
     "type": "symfony-bundle",
     "license": "MIT",
     "authors": [
@@ -15,11 +15,11 @@
     ],
     "autoload": {
         "psr-4": {
-            "ShopBundle\\": "src/"
+            "ShypBundle\\": "src/"
         }
       },
     "require": {
-        "php": ">=7.2",
+        "php": ">=7.4",
         "doctrine/annotations": "^1.0",
         "doctrine/doctrine-bundle": "^2.4",
         "doctrine/doctrine-migrations-bundle": "^3.1",

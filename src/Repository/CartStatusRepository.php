@@ -1,8 +1,8 @@
 <?php
 
-namespace ShopBundle\Repository;
+namespace ShypBundle\Repository;
 
-use ShopBundle\Entity\CartStatus;
+use ShypBundle\Entity\CartStatus;
 use Doctrine\Bundle\DoctrineBundle\Repository\ServiceEntityRepository;
 use Doctrine\Persistence\ManagerRegistry;
 

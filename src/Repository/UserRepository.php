@@ -1,8 +1,8 @@
 <?php
 
-namespace ShopBundle\Repository;
+namespace ShypBundle\Repository;
 
-use ShopBundle\Entity\User;
+use ShypBundle\Entity\User;
 use Doctrine\Bundle\DoctrineBundle\Repository\ServiceEntityRepository;
 use Doctrine\Persistence\ManagerRegistry;
 use Symfony\Component\Security\Core\Exception\UnsupportedUserException;

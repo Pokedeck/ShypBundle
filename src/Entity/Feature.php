@@ -1,8 +1,8 @@
 <?php
 
-namespace ShopBundle\Entity;
+namespace ShypBundle\Entity;
 
-use ShopBundle\Repository\FeatureRepository;
+use ShypBundle\Repository\FeatureRepository;
 use Doctrine\Common\Collections\ArrayCollection;
 use Doctrine\Common\Collections\Collection;
 use Doctrine\ORM\Mapping as ORM;

@@ -1,8 +1,8 @@
 <?php
 
-namespace App\Repository;
+namespace ShypBundle\Repository;
 
-use App\Entity\Brand;
+use ShypBundle\Entity\Brand;
 use Doctrine\Bundle\DoctrineBundle\Repository\ServiceEntityRepository;
 use Doctrine\Persistence\ManagerRegistry;
 

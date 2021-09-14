@@ -1,8 +1,8 @@
 <?php
 
-namespace ShopBundle\Entity;
+namespace ShypBundle\Entity;
 
-use ShopBundle\Repository\FeatureValueRepository;
+use ShypBundle\Repository\FeatureValueRepository;
 use Doctrine\ORM\Mapping as ORM;
 
 /**
