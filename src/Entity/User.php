@@ -1,8 +1,8 @@
 <?php
 
-namespace ShypBundle\Entity;
+namespace ShypyBundle\Entity;
 
-use ShypBundle\Repository\UserRepository;
+use ShypyBundle\Repository\UserRepository;
 use Doctrine\Common\Collections\ArrayCollection;
 use Doctrine\Common\Collections\Collection;
 use Symfony\Component\Serializer\Annotation\SerializedName;

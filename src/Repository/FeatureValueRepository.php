@@ -1,8 +1,8 @@
 <?php
 
-namespace ShypBundle\Repository;
+namespace ShypyBundle\Repository;
 
-use ShypBundle\Entity\FeatureValue;
+use ShypyBundle\Entity\FeatureValue;
 use Doctrine\Bundle\DoctrineBundle\Repository\ServiceEntityRepository;
 use Doctrine\Persistence\ManagerRegistry;
 

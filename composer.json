@@ -1,6 +1,6 @@
 {
-    "name": "shyp/shyp-bundle",
-    "description": "shyp bundle is a e-shop bundle",
+    "name": "shypy/shypy-bundle",
+    "description": "shypy bundle is a e-shop bundle",
     "type": "symfony-bundle",
     "license": "MIT",
     "authors": [
@@ -13,10 +13,10 @@
             "email": "pignon.adrien@gmail.com"
         }
     ],
-    "version": "0.1.1",
+    "version": "0.1.2",
     "autoload": {
         "psr-4": {
-            "ShypBundle\\": "src/"
+            "ShypyBundle\\": "src/"
         }
       },
     "require": {

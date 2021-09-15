@@ -1,8 +1,8 @@
 <?php
 
-namespace ShypBundle\Entity;
+namespace ShypyBundle\Entity;
 
-use ShypBundle\Repository\CartItemRepository;
+use ShypyBundle\Repository\CartItemRepository;
 use Doctrine\ORM\Mapping as ORM;
 
 /**

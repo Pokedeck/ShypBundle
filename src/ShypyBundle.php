@@ -1,10 +1,10 @@
 <?php
 
-namespace ShypBundle;
+namespace ShypyBundle;
 
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 
-class ShypBundle extends Bundle
+class ShypyBundle extends Bundle
 {
   public function getPath(): string
   {
