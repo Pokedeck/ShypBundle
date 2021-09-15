@@ -13,7 +13,7 @@
             "email": "pignon.adrien@gmail.com"
         }
     ],
-    "version": "0.1.3",
+    "version": "0.1.5",
     "autoload": {
         "psr-4": {
             "ShypyBundle\\": "src/"
