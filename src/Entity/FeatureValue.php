@@ -5,9 +5,6 @@ namespace ShypyBundle\Entity;
 use ShypyBundle\Repository\FeatureValueRepository;
 use Doctrine\ORM\Mapping as ORM;
 
-/**
- * @ORM\Entity(repositoryClass=FeatureValueRepository::class)
- */
 class FeatureValue
 {
     /**

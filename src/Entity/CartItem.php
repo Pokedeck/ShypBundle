@@ -5,9 +5,6 @@ namespace ShypyBundle\Entity;
 use ShypyBundle\Repository\CartItemRepository;
 use Doctrine\ORM\Mapping as ORM;
 
-/**
- * @ORM\Entity(repositoryClass=CartItemRepository::class)
- */
 class CartItem
 {
     /**
