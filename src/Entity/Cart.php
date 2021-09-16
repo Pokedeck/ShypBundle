@@ -8,9 +8,10 @@ use Doctrine\Common\Collections\Collection;
 use Doctrine\ORM\Mapping as ORM;
 
 /**
- * @ORM\MappedSuperclass
+ * @ORM\Entity(repositoryClass=CartRepository::class)
+ * @InheritanceType("SINGLE_TABLE")
  */
-abstract class Cart
+class Cart
 {
     /**
      * @ORM\Id
