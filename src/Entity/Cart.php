@@ -17,32 +17,32 @@ class Cart
      * @ORM\GeneratedValue
      * @ORM\Column(type="integer")
      */
-    private $id;
+    protected $id;
 
     /**
      * @ORM\Column(type="boolean")
      */
-    private $favory;
+    protected $favory;
 
     /**
      * @ORM\Column(type="datetime")
      */
-    private $creationDate;
+    protected $creationDate;
 
     /**
      * @ORM\Column(type="datetime", nullable=true)
      */
-    private $changeDate;
+    protected $changeDate;
 
     /**
      * @ORM\ManyToOne(targetEntity=User::class, inversedBy="carts")
      */
-    private $owner;
+    protected $owner;
 
     /**
      * @ORM\OneToMany(targetEntity=CartItem::class, mappedBy="cart")
      */
-    private $cartItems;
+    protected $cartItems;
 
     public function __construct()
     {
