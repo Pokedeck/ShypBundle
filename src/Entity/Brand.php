@@ -25,7 +25,7 @@ abstract class Brand
     protected $name;
 
     /**
-     * @ORM\OneToMany(targetEntity=Product::class, mappedBy="brand")
+     * @ORM\OneToMany(targetEntity=App\Entity\Product::class, mappedBy="brand")
      */
     protected $products;
 
