@@ -9,7 +9,7 @@ use Doctrine\ORM\Mapping as ORM;
 
 /**
  * @ORM\Entity(repositoryClass=CartRepository::class)
- * @InheritanceType("SINGLE_TABLE")
+ * @ORM\InheritanceType("SINGLE_TABLE")
  */
 class Cart
 {
