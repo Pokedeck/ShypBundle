@@ -30,13 +30,13 @@ abstract class Product
     protected $name;
 
     /**
-     * @ORM\ManyToOne(targetEntity=Category::class, inversedBy="products")
+     * @ORM\ManyToOne(targetEntity=App\Entity\Category::class, inversedBy="products")
      * @ORM\JoinColumn(nullable=false)
      */
     protected $category;
 
     /**
-     * @ORM\OneToMany(targetEntity=FeatureValue::class, mappedBy="product", orphanRemoval=true)
+     * @ORM\OneToMany(targetEntity=App\Entity\FeatureValue::class, mappedBy="product", orphanRemoval=true)
      */
     protected $featureValues;
 
@@ -46,7 +46,7 @@ abstract class Product
     protected $price;
 
     /**
-     * @ORM\ManyToOne(targetEntity=Brand::class, inversedBy="products")
+     * @ORM\ManyToOne(targetEntity=App\Entity\Brand::class, inversedBy="products")
      */
     protected $brand;
 

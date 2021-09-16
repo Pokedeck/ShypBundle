@@ -46,7 +46,7 @@ abstract class User implements UserInterface, PasswordAuthenticatedUserInterface
     protected $plainPassword;
 
     /**
-     * @ORM\OneToMany(targetEntity=Cart::class, mappedBy="owner")
+     * @ORM\OneToMany(targetEntity=App\Entity\Cart::class, mappedBy="owner")
      */
     protected $carts;
 

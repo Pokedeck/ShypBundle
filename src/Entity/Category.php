@@ -25,12 +25,12 @@ abstract class Category
     protected $name;
 
     /**
-     * @ORM\ManyToOne(targetEntity=Category::class, inversedBy="categories")
+     * @ORM\ManyToOne(targetEntity=App\Entity\Category::class, inversedBy="categories")
      */
     protected $taxon;
 
     /**
-     * @ORM\OneToMany(targetEntity=Product::class, mappedBy="category")
+     * @ORM\OneToMany(targetEntity=App\Entity\Product::class, mappedBy="category")
      */
     protected $products;
 

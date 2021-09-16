@@ -30,7 +30,7 @@ abstract class Feature
     protected $unity;
 
     /**
-     * @ORM\OneToMany(targetEntity=FeatureValue::class, mappedBy="feature", orphanRemoval=true)
+     * @ORM\OneToMany(targetEntity=App\Entity\FeatureValue::class, mappedBy="feature", orphanRemoval=true)
      */
     protected $featureValues;
 

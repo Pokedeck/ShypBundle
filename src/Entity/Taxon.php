@@ -25,7 +25,7 @@ abstract class Taxon
     protected $name;
 
     /**
-     * @ORM\OneToMany(targetEntity=Category::class, mappedBy="taxon")
+     * @ORM\OneToMany(targetEntity=App\Entity\Category::class, mappedBy="taxon")
      */
     protected $categories;
 

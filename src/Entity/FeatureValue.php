@@ -23,13 +23,13 @@ abstract class FeatureValue
     protected $value;
 
     /**
-     * @ORM\ManyToOne(targetEntity=Feature::class, inversedBy="featureValues")
+     * @ORM\ManyToOne(targetEntity=App\Entity\Feature::class, inversedBy="featureValues")
      * @ORM\JoinColumn(nullable=false)
      */
     protected $feature;
 
     /**
-     * @ORM\ManyToOne(targetEntity=Product::class, inversedBy="featureValues")
+     * @ORM\ManyToOne(targetEntity=App\Entity\Product::class, inversedBy="featureValues")
      * @ORM\JoinColumn(nullable=false)
      */
     protected $product;

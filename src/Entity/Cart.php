@@ -35,12 +35,12 @@ abstract class Cart
     protected $changeDate;
 
     /**
-     * @ORM\ManyToOne(targetEntity=User::class, inversedBy="carts")
+     * @ORM\ManyToOne(targetEntity=App\Entity\User::class, inversedBy="carts")
      */
     protected $owner;
 
     /**
-     * @ORM\OneToMany(targetEntity=CartItem::class, mappedBy="cart")
+     * @ORM\OneToMany(targetEntity=App\Entity\CartItem::class, mappedBy="cart")
      */
     protected $cartItems;
 

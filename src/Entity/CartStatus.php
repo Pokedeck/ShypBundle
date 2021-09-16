@@ -25,7 +25,7 @@ abstract class CartStatus
     protected $name;
 
     /**
-     * @ORM\OneToMany(targetEntity=Cart::class, mappedBy="status", orphanRemoval=false)
+     * @ORM\OneToMany(targetEntity=App\Entity\Cart::class, mappedBy="status", orphanRemoval=false)
      */
     protected $carts;
 

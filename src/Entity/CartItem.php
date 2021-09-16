@@ -18,13 +18,13 @@ abstract class CartItem
     protected $id;
 
     /**
-     * @ORM\ManyToOne(targetEntity=Cart::class, inversedBy="cartItems")
+     * @ORM\ManyToOne(targetEntity=App\Entity\Cart::class, inversedBy="cartItems")
      * @ORM\JoinColumn(nullable=false)
      */
     protected $cart;
 
     /**
-     * @ORM\ManyToOne(targetEntity=Product::class, inversedBy="cartItems")
+     * @ORM\ManyToOne(targetEntity=App\Entity\Product::class, inversedBy="cartItems")
      * @ORM\JoinColumn(nullable=false)
      */
     protected $product;
