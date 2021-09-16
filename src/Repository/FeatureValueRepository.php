@@ -2,7 +2,7 @@
 
 namespace ShypyBundle\Repository;
 
-use ShypyBundle\Entity\FeatureValue;
+use App\Entity\FeatureValue;
 use Doctrine\Bundle\DoctrineBundle\Repository\ServiceEntityRepository;
 use Doctrine\Persistence\ManagerRegistry;
 

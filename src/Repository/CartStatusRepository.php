@@ -2,7 +2,7 @@
 
 namespace ShypyBundle\Repository;
 
-use ShypyBundle\Entity\CartStatus;
+use App\Entity\CartStatus;
 use Doctrine\Bundle\DoctrineBundle\Repository\ServiceEntityRepository;
 use Doctrine\Persistence\ManagerRegistry;
 

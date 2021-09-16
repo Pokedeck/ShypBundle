@@ -2,7 +2,7 @@
 
 namespace ShypyBundle\Repository;
 
-use ShypyBundle\Entity\Brand;
+use App\Entity\Brand;
 use Doctrine\Bundle\DoctrineBundle\Repository\ServiceEntityRepository;
 use Doctrine\Persistence\ManagerRegistry;
 

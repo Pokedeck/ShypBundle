@@ -2,7 +2,7 @@
 
 namespace ShypyBundle\Repository;
 
-use ShypyBundle\Entity\Taxon;
+use App\Entity\Taxon;
 use Doctrine\Bundle\DoctrineBundle\Repository\ServiceEntityRepository;
 use Doctrine\Persistence\ManagerRegistry;
 

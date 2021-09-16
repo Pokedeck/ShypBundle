@@ -2,7 +2,7 @@
 
 namespace ShypyBundle\Repository;
 
-use ShypyBundle\Entity\CartItem;
+use App\Entity\CartItem;
 use Doctrine\Bundle\DoctrineBundle\Repository\ServiceEntityRepository;
 use Doctrine\Persistence\ManagerRegistry;
 
