@@ -17,22 +17,22 @@ class Feature
      * @ORM\GeneratedValue
      * @ORM\Column(type="integer")
      */
-    private $id;
+    protected $id;
 
     /**
      * @ORM\Column(type="string", length=255)
      */
-    private $name;
+    protected $name;
 
     /**
      * @ORM\Column(type="string", length=255)
      */
-    private $unity;
+    protected $unity;
 
     /**
      * @ORM\OneToMany(targetEntity=FeatureValue::class, mappedBy="feature", orphanRemoval=true)
      */
-    private $featureValues;
+    protected $featureValues;
 
     public function __construct()
     {

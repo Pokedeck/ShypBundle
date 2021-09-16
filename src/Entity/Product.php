@@ -17,48 +17,48 @@ class Product
      * @ORM\GeneratedValue
      * @ORM\Column(type="integer")
      */
-    private $id;
+    protected $id;
 
     /**
      * @ORM\Column(type="string", length=255)
      */
-    private $code;
+    protected $code;
 
     /**
      * @ORM\Column(type="string", length=255)
      */
-    private $name;
+    protected $name;
 
     /**
      * @ORM\ManyToOne(targetEntity=Category::class, inversedBy="products")
      * @ORM\JoinColumn(nullable=false)
      */
-    private $category;
+    protected $category;
 
     /**
      * @ORM\OneToMany(targetEntity=FeatureValue::class, mappedBy="product", orphanRemoval=true)
      */
-    private $featureValues;
+    protected $featureValues;
 
     /**
      * @ORM\Column(type="float")
      */
-    private $price;
+    protected $price;
 
     /**
      * @ORM\ManyToOne(targetEntity=Brand::class, inversedBy="products")
      */
-    private $brand;
+    protected $brand;
 
     /**
      * @ORM\Column(type="string", length=255, nullable=true)
      */
-    private $description;
+    protected $description;
 
     /**
      * @ORM\Column(type="string", length=255, nullable=true)
      */
-    private $pathImage;
+    protected $pathImage;
 
     public function __construct()
     {

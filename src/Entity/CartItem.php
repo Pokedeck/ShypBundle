@@ -15,24 +15,24 @@ class CartItem
      * @ORM\GeneratedValue
      * @ORM\Column(type="integer")
      */
-    private $id;
+    protected $id;
 
     /**
      * @ORM\ManyToOne(targetEntity=Cart::class, inversedBy="cartItems")
      * @ORM\JoinColumn(nullable=false)
      */
-    private $cart;
+    protected $cart;
 
     /**
      * @ORM\ManyToOne(targetEntity=Product::class, inversedBy="cartItems")
      * @ORM\JoinColumn(nullable=false)
      */
-    private $product;
+    protected $product;
 
     /**
      * @ORM\Column(type="integer")
      */
-    private $quantity;
+    protected $quantity;
 
     public function getId(): ?int
     {

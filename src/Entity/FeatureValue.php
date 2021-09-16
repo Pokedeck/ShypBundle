@@ -15,24 +15,24 @@ class FeatureValue
      * @ORM\GeneratedValue
      * @ORM\Column(type="integer")
      */
-    private $id;
+    protected $id;
 
     /**
      * @ORM\Column(type="string", length=255)
      */
-    private $value;
+    protected $value;
 
     /**
      * @ORM\ManyToOne(targetEntity=Feature::class, inversedBy="featureValues")
      * @ORM\JoinColumn(nullable=false)
      */
-    private $feature;
+    protected $feature;
 
     /**
      * @ORM\ManyToOne(targetEntity=Product::class, inversedBy="featureValues")
      * @ORM\JoinColumn(nullable=false)
      */
-    private $product;
+    protected $product;
 
     public function getId(): ?int
     {

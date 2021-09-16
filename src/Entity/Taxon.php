@@ -17,17 +17,17 @@ class Taxon
      * @ORM\GeneratedValue
      * @ORM\Column(type="integer")
      */
-    private $id;
+    protected $id;
 
     /**
      * @ORM\Column(type="string", length=255)
      */
-    private $name;
+    protected $name;
 
     /**
      * @ORM\OneToMany(targetEntity=Category::class, mappedBy="taxon")
      */
-    private $categories;
+    protected $categories;
 
     public function __construct()
     {

@@ -17,22 +17,22 @@ class Category
      * @ORM\GeneratedValue
      * @ORM\Column(type="integer")
      */
-    private $id;
+    protected $id;
 
     /**
      * @ORM\Column(type="string", length=255)
      */
-    private $name;
+    protected $name;
 
     /**
      * @ORM\ManyToOne(targetEntity=Category::class, inversedBy="categories")
      */
-    private $taxon;
+    protected $taxon;
 
     /**
      * @ORM\OneToMany(targetEntity=Product::class, mappedBy="category")
      */
-    private $products;
+    protected $products;
 
     public function __construct()
     {

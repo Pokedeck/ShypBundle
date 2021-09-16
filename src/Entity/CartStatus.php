@@ -17,17 +17,17 @@ class CartStatus
      * @ORM\GeneratedValue
      * @ORM\Column(type="integer")
      */
-    private $id;
+    protected $id;
 
     /**
      * @ORM\Column(type="string", length=255)
      */
-    private $name;
+    protected $name;
 
     /**
      * @ORM\OneToMany(targetEntity=Cart::class, mappedBy="status", orphanRemoval=false)
      */
-    private $carts;
+    protected $carts;
 
     public function __construct()
     {
