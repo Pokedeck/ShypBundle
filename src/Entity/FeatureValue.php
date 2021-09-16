@@ -6,10 +6,10 @@ use ShypyBundle\Repository\FeatureValueRepository;
 use Doctrine\ORM\Mapping as ORM;
 
 /**
- * @Entity
- * @InheritanceType("SINGLE_TABLE")
- * @DiscriminatorColumn(name="discr", type="string")
- * @DiscriminatorMap({"BaseFeatureValue" = "ShypyBundle\Entity\FeatureValue"})
+ * @ORM\Entity
+ * @ORM\InheritanceType("SINGLE_TABLE")
+ * @ORM\DiscriminatorColumn(name="discr", type="string")
+ * @ORM\DiscriminatorMap({"BaseFeatureValue" = "ShypyBundle\Entity\FeatureValue"})
  */
 class FeatureValue
 {
