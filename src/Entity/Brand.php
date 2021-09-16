@@ -17,17 +17,17 @@ class Brand
      * @ORM\GeneratedValue
      * @ORM\Column(type="integer")
      */
-    private $id;
+    protected $id;
 
     /**
      * @ORM\Column(type="string", length=255)
      */
-    private $name;
+    protected $name;
 
     /**
      * @ORM\OneToMany(targetEntity=Product::class, mappedBy="brand")
      */
-    private $products;
+    protected $products;
 
     public function __construct()
     {
