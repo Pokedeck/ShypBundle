@@ -12,10 +12,7 @@ use Symfony\Component\Security\Core\User\PasswordAuthenticatedUserInterface;
 use Symfony\Component\Security\Core\User\UserInterface;
 
 /**
- * @ORM\Entity
- * @ORM\InheritanceType("SINGLE_TABLE")
- * @ORM\DiscriminatorColumn(name="discr", type="string")
- * @ORM\DiscriminatorMap({"BaseUser" = "ShypyBundle\Entity\User"})
+ * @ORM\MappedSuperclass
  */
 class User implements UserInterface, PasswordAuthenticatedUserInterface
 {

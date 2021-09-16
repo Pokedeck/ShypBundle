@@ -8,10 +8,7 @@ use Doctrine\Common\Collections\ArrayCollection;
 use Doctrine\Common\Collections\Collection;
 
 /**
- * @ORM\Entity
- * @ORM\InheritanceType("SINGLE_TABLE")
- * @ORM\DiscriminatorColumn(name="discr", type="string")
- * @ORM\DiscriminatorMap({"BaseCategory" = "ShypyBundle\Entity\Category"})
+ * @ORM\MappedSuperclass
  */
 class Category
 {

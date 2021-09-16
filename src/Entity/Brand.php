@@ -8,10 +8,7 @@ use Doctrine\Common\Collections\Collection;
 use Doctrine\ORM\Mapping as ORM;
 
 /**
- * @ORM\Entity
- * @ORM\InheritanceType("SINGLE_TABLE")
- * @ORM\DiscriminatorColumn(name="discr", type="string")
- * @ORM\DiscriminatorMap({"BaseBrand" = "ShypyBundle\Entity\Brand"})
+ * @ORM\MappedSuperclass
  */
 class Brand
 {

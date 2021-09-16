@@ -6,10 +6,7 @@ use ShypyBundle\Repository\CartItemRepository;
 use Doctrine\ORM\Mapping as ORM;
 
 /**
- * @ORM\Entity
- * @ORM\InheritanceType("SINGLE_TABLE")
- * @ORM\DiscriminatorColumn(name="discr", type="string")
- * @ORM\DiscriminatorMap({"BaseCartItem" = "ShypyBundle\Entity\CartItem"})
+ * @ORM\MappedSuperclass
  */
 class CartItem
 {
