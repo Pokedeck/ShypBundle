@@ -10,7 +10,7 @@ use Doctrine\Common\Collections\Collection;
 /**
  * @ORM\MappedSuperclass
  */
-class Category
+abstract class Category
 {
     /**
      * @ORM\Id

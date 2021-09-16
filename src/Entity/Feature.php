@@ -10,7 +10,7 @@ use Doctrine\ORM\Mapping as ORM;
 /**
  * @ORM\MappedSuperclass
  */
-class Feature
+abstract class Feature
 {
     /**
      * @ORM\Id

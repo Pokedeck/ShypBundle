@@ -10,7 +10,7 @@ use Doctrine\ORM\Mapping as ORM;
 /**
  * @ORM\MappedSuperclass
  */
-class Brand
+abstract class Brand
 {
     /**
      * @ORM\Id

@@ -8,7 +8,7 @@ use Doctrine\ORM\Mapping as ORM;
 /**
  * @ORM\MappedSuperclass
  */
-class FeatureValue
+abstract class FeatureValue
 {
     /**
      * @ORM\Id

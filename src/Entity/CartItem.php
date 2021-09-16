@@ -8,7 +8,7 @@ use Doctrine\ORM\Mapping as ORM;
 /**
  * @ORM\MappedSuperclass
  */
-class CartItem
+abstract class CartItem
 {
     /**
      * @ORM\Id

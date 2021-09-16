@@ -10,7 +10,7 @@ use Doctrine\ORM\Mapping as ORM;
 /**
  * @ORM\MappedSuperclass
  */
-class Taxon
+abstract class Taxon
 {
     /**
      * @ORM\Id
